@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" type="text/css" href="#{request.contextPath}/_css/main.css" />
+</head>
+<body>
+    <h1>Formulário de Contato</h1>
+
+    <h:form>
+        <p>
+            <label for="nome">Nome:</label>
+            <h:inputText id="nome" value="#{formularioBean.nome}" />
+        </p>
+
+        <p>
+            <label for="sobrenome">Sobrenome:</label>
+            <h:inputText id="sobrenome" value="#{formularioBean.sobrenome}" />
+        </p>
+
+        <p>
+            <label for="fone">Telefone:</label>
+            <h:inputText id="fone" value="#{formularioBean.telefone}" />
+        </p>
+
+        <p>
+            <label for="email">E-mail:</label>
+            <h:inputText id="email" value="#{formularioBean.email}" />
+        </p>
+
+        <p>
+            <h:commandButton value="Enviar" action="#{formularioBean.enviar}" />
+        </p>
+    </h:form>
+</body>
+</html>

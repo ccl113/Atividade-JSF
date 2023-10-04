@@ -1,0 +1,69 @@
+@charset "ISO-8859-1";
+/* Reset de estilos padrão */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o corpo do currículo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+header img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+/* Estilos para as seções */
+section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+section h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Estilize links dentro de seções, se necessário */
+section a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* Estilos para a lista de cursos */
+section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Estilize o rodapé, se necessário */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #007BFF;
+    color: #fff;
+}
